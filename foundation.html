@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vincent Foundation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/polaroid.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+    </head>
+    <body class="bgcolor2">
+        <div class="menu-inner">
+            <div class="wrapper">
+                <div class="container_12">
+                    <div class="menu-holder">
+                        <div class="grid_3 logo nleft">
+                            <a href="index.html"><img src="img/logo.png"></a>
+                        </div>
+                        <div class="btn-mobile right"></div>
+                        <div class="grid_9 menu-right nright mr0">
+                            <ul>
+                                <li><a href="#">Donate</a></li>
+                                <li><a href="#">Risks</a></li>
+                                <li><a href="benefits.html">Benefits</a></li>
+                                <li><a href="experts.html">Our expertise</a></li>
+                                <li><a href="how-we-work.html">How we work</a></li>
+                                <li><a href="foundation.html">The Vincent Foundation</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foundation-title title">
+            <div class="wrapper">
+                <div class="container_12">
+                    <h2 class="uppercase">Why we started the<br/>Vincent Foundation</h2>
+                    <div class="grid_8 nleft ml0">
+                        <p>The Vincent Foundation was founded in June 2014 by Jean-Yves Sireau and his brother, Dr Nicolas Sireau, to seek better treatments for Jean-Yves's son, Vincent, who suffered an anoxic brain injury in June 2012.</p>
+                        <p>Vincent, who was five years old at the time of the injury, now suffers generalized dystonia and severe cognitive impairment.</p>
+                    </div>
+                </div>
+            </div>
+ <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="foundation pb50 nleft">
+            <div class="wrapper">
+                <div class="container_12">
+                    <h2 class="color1 uppercase mb50">The people behind the Vincent Foundation</h2>
+                    <div class="grid_7 nleft ml0">
+                        <p class="color1 mt50">Jean-Yves Sireau is an entrepreneur who lives in Malaysia. His main company is binary.com, an options trading website, which he founded in 1999. Jean-Yves is also founder of the healthiercompany.com, which provides web-based health risk assessments.</p>
+                    </div>
+                    <div class="grid_4 nleft push_1">
+                        <div class="galleriePolaroid"> 
+                           
+                            <div class="item i1">
+                                <img src="img/slider1.jpg" alt="1">
+<!--                                <div>
+                                    Image 5
+                                </div>-->
+                            </div><!--
+-->                           
+                            <div class="item i3 active">
+                                <img src="img/slider1.jpg" alt="1">
+<!--                                <div>
+                                    Image 3
+                                </div>-->
+                            </div>
+                            <div class="item i4">
+                                <img src="img/slider2.jpg" alt="1">
+<!--                                <div>
+                                    Image 3
+                                </div>-->
+                            </div>
+                            <div class="item i5 ">
+                                <img src="img/slider3.jpg" alt="1">
+<!--                                <div>
+                                    Image 3
+                                </div>-->
+                            </div>
+                          
+
+<div class="left" onclick="previous()" style="display: none;"><span>Previous</span></div>
+                            <div class="right" onclick="next()" style="display: none;"><span>Next</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_12">
+                    <div class="grid_4 frame ml0">
+                      <iframe width="430" height="242" src="//www.youtube.com/embed/B4UnVlU5hAY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="grid_8 push_1-5">
+                        <p class="color1 mt50">Nicolas Sireau is the founder and Chairman of the AKU Society, a medical charity that works to support and find a cure for patients with Alkaptonuria, a rare genetic disease that affects his two sons. He is also the founder and Chairman of Findacure, a foundation that seeks to change conventional thinking about rare diseases by funding scientific research into ‘fundamental’ diseases.</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+ <div class="content-unit">
+            <div id="video-container">
+                <video id="videodown" autoplay loop class="fillWidth">
+                    <source src="bg-video.mp4" type="video/mp4"/>
+                    <source src="bg-video.ogv" type="video/ogv"/>
+                    <source src="bg-video.webm" type="video/webm"/>
+                    Your browser does not support the video tag. I suggest you upgrade your browser.
+                </video>
+                <div id="div_on_video" class="video-holder">
+                    <div class="wrapper">
+                        <div class="container_12">
+                            <h2 class="color1">Join our mailing list</h2>
+                            <span>
+                                <input type="email" placeholder="Please enter your email address...">
+                                <a href="#"><div class="arrow-right-transparent"></div></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end video-container -->
+        </div><!-- end .header-unit -->
+ <div class="footer">
+            <div class="wrapper">
+                <div class="container_12 text-center">
+
+                    <p class="color1">Donate to the Vincent Foundation to help us fund the case studies of patients who need financial assistance.</p>
+                    <a href="#" class="btn-find">
+                        <div class="color1 uppercase">
+                            donate
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+   $(".btn-mobile").click(function() {
+                $('.menu-right ul').toggle();
+            });
+
+             $(".menu-right ul li").click(function() {
+           if (w < 850) {
+               $('.menu-right ul').toggle();
+           }
+            
+});
+            $(window).on('resize', function() {
+                var w = $(window).width();
+                if (w > 850) {
+                    $('.menu-right ul').show();
+                }
+            });
+ function videoHigh() {
+                var h = $('#videotop').height();
+                var w = $(window).width();
+                var hd = $('#videodown').height();
+
+
+                $('.header-unit').css('height', h - 40) + "!important";
+                if (hd > 320) {
+                    $('.content-unit').css('height', 320) + "!important";
+                } else {
+                    $('.content-unit').css('height', hd - 40) + "!important";
+                }
+            }
+            $(window).on('resize', function() {
+                videoHigh();
+            });
+            $(window).on('load', function() {
+                videoHigh();
+            });
+        </script>
+    </body>
+</html>

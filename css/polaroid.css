@@ -1,0 +1,116 @@
+.galleriePolaroid{
+	width:100%;
+	margin:0 auto;
+	height:400px;
+	position:relative;
+}
+.item{
+	width: 335px;
+	background:#fff;
+	border:1px solid #ccc;
+	box-shadow:0px 0px 5px #111;
+	-moz-box-shadow:0px 0px 5px #111;
+	-webkit-box-shadow:0px 0px 5px #111;
+	-o-box-shadow:0px 0px 5px #111;
+/*	cursor:pointer;*/
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+	position:absolute;
+/*	left:290px;
+	top:155px;*/
+}
+.item div{
+	font-style:italic;
+	font-size:16px;
+	text-align:center;
+	padding:5px;
+}
+.item.i1{
+	-webkit-transform: rotate(350deg);
+	-moz-transform: rotate(350deg);
+	-o-transform: rotate(350deg);
+	-ms-transform: rotate(350deg);
+	transform: rotate(350deg);
+}
+.item.i2{
+	-webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+.item.i3{
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+.item.i4{
+	-webkit-transform: rotate(8deg);
+	-moz-transform: rotate(8deg);
+	-o-transform: rotate(8deg);
+	-ms-transform: rotate(8deg);
+	transform: rotate(8deg);
+}
+.item.i5{
+	
+}
+.item img{
+	margin:0;
+}
+/*.item:hover{
+	-webkit-transform: rotate(360deg) scale(1.5);
+	-moz-transform: rotate(360deg) scale(1.5);
+	-o-transform: rotate(360deg) scale(1.5);
+	-ms-transform: rotate(360deg) scale(1.5);
+	transform: rotate(360deg) scale(1.5);
+	-webkit-transform-origin: center center;
+	-moz-transform-origin: center center;
+	-o-transform-origin: center center;
+	transform-origin: center center;
+}*/
+/*navigation*/
+/*.left, .right{
+	cursor:pointer;
+	position:absolute;
+	top:235px;
+	width:65px;
+	height:20px;
+	left:20px;
+	background:#111;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-webkit-border-radius:10px;
+	display:none;
+	-webkit-transition: all 0.5s;
+	-webkit-transform-origin: center center;
+	-moz-transition: all 0.5s;
+	-moz-transform-origin: center center;
+	-o-transition: all 0.5s;
+	-o-transform-origin: center center;
+}*/
+/*.left span, .right span{
+	font-weight:bold;
+	padding:0 5px;
+	margin-top:5px;
+	color:#fff;*/
+/*	opacity:0;*/
+/*}*/
+/*.left:hover span, .right:hover span{
+	opacity:1;
+}*/
+/*.right:hover{
+	width:55px;
+}
+.left:hover{
+	width:85px;
+}*/
+/*.right{
+	display:block;
+	left:auto;
+	right:20px;
+}*/
